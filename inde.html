@@ -40,8 +40,26 @@
     </div>
 
     <!-- table all button section -->
-     <div class="bg-[rgb(0,0,0,0.5)] py-2 px-4 container mx-auto rounded-xl">
+     <div class="bg-[rgb(0,0,0,0.5)] py-2 px-4 container mx-auto rounded-xl text-white block md:flex">
 
+      <!-- sarch section -->
+       <div class="py-2 w-1/3 flex">
+        <input type="text" name="sarch" id="sarch" placeholder="Sarch Name" class="outline-none px-4 py-2
+        border-b border-white rounded-xl focus:bg-[#fff5] transition-all duration-700">
+       </div>
+
+       <!-- filter section -->
+        <div class="w-2/3 flex items-center gap-5">
+         
+          <!-- sarch by class -->
+           <input type="number" name="class" id="class" class="outline-none px-4 py-2
+        border border-white rounded-xl focus:bg-[#fff5] transition-all duration-700" placeholder="Class">
+
+         <!-- sarch by section -->
+           <input type="text" name="section" id="section" class="outline-none px-4 py-2
+        border border-white rounded-xl focus:bg-[#fff5] transition-all duration-700" placeholder="Section">
+
+        </div>
      </div>
 
   </section>
